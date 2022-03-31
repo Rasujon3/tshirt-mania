@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+Explore 4 ways to add Conditional Rendering in React
+i.	Eta hole oita dekhaw, na hoile onno kichu dekhaw
+  // Conditional rendering options
+  // 1. Element variable
+  //   2. ternary operator condition ? true : false
+  //   3. and Operator(shorthand)(&&) => true hole ekta jinis dekhaba
+  //   4. or operator(&&) => false hole ekta jinis dekhaba
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+54-6 Prop Drilling to pass data to a many level components
+Prop drilling: grandpa – falther – myself – special
+54-7 Simple Introduction to Context API to avoid Prop drilling
+i.	Context declare kora & export kora
+ii.	Joto gula k share krte chaw segula k provider er vitor e dhukay dite hobe
+iii.	Then oitar moddhe value set kore diba, oi value sobai pabe
+ 1. call createContext with a defalut value 
+ 2. set a variable of the context with uppercase
+ 3. Make sure you export the context to use it in other places
+ 4. Warp you child content using RingCOntext.Provider
+ 5. Provide a vlaue
+ 6. to consume the context from child component
+ 7. useContext hook and you eill need to pass the contextName
+ 8. Make sure you take notes...
 
-In the project directory, you can run:
+54-9 Deploy react router project and fix router reload issue
+So to fix the issue, we need to create a file named _redirects to the root of our site [public folder of App] with the following content.
+/* /index.html 200
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
